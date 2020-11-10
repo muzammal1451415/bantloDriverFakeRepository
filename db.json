@@ -9,7 +9,27 @@
         "pickup_city_name": "Lahore",
         "dropoff_city_name": "Faisalbad",
         "pickup_location": "G4 block, Johar Town, Lahore",
-        "dropoff_location": "Clock Tower, Faisalbad ",
+        "dropoff_location": "Clock Tower, Faisalbad",
+        },
+        "pickup_latlng":{
+        "latitute":31.5924933,
+        "longitude":74.2677346
+        },
+          "dropoff_latlng":{
+          "latitute":31.5924933,
+          "longitude":74.2677346
+        }
+    },
+    {
+      "id":2,
+      "driver_id":1,
+      "date_time":"March 12,2030 at 4:20 PM",
+      "no_of_seats_posted":2,
+        "location_info":{
+        "pickup_city_name": "Lahore",
+        "dropoff_city_name": "Faisalbad",
+        "pickup_location": "G4 block, Johar Town, Lahore",
+        "dropoff_location": "Clock Tower, Faisalbad",
         },
         "pickup_latlng":{
         "latitute":31.5924933,
