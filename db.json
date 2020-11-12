@@ -1,66 +1,96 @@
-  {
-    "active_posts":[
-      {
-        "id":1,
-        "driver_id":1,
-        "date_time":"March 12,2030 at 4:20 PM",
-        "no_of_seats_posted":2,
-          "location_info":{
-          "pickup_city_name": "Lahore",
-          "dropoff_city_name": "Faisalbad",
-          "pickup_location": "G4 block, Johar Town, Lahore",
-          "dropoff_location": "Clock Tower, Faisalbad"
-          },
-          "pickup_latlng":{
-          "latitute":31.5924933,
-          "longitude":74.2677346
-          },
-            "dropoff_latlng":{
-            "latitute":31.5924933,
-            "longitude":74.2677346
-          }
-      },
-      {
-        "id":2,
-        "driver_id":1,
-        "date_time":"March 12,2030 at 4:20 PM",
-        "no_of_seats_posted":2,
-          "location_info":{
-          "pickup_city_name": "Lahore",
-          "dropoff_city_name": "Faisalbad",
-          "pickup_location": "G4 block, Johar Town, Lahore",
-          "dropoff_location": "Clock Tower, Faisalbad"
-          },
-          "pickup_latlng":{
-          "latitute":31.5924933,
-          "longitude":74.2677346
-          },
-            "dropoff_latlng":{
-            "latitute":31.5924933,
-            "longitude":74.2677346
-          }
-      }
-   
-    ],
-    "cancelled_rides":[
+{
+  "active_posts":[
     {
       "id":1,
       "driver_id":1,
-      "date_time":"Tuesday March 12 2020, 12:10 PM",
-      "cancelled_reason": "None"
+      "date_time":"March 12,2030 at 4:20 PM",
+      "no_of_seats_posted":2,
+        "location_info":{
+        "pickup_city_name": "Lahore",
+        "dropoff_city_name": "Faisalbad",
+        "pickup_location": "G4 block, Johar Town, Lahore",
+        "dropoff_location": "Clock Tower, Faisalbad"
+        },
+        "pickup_latlng":{
+        "latitute":31.5924933,
+        "longitude":74.2677346
+        },
+          "dropoff_latlng":{
+          "latitute":31.5924933,
+          "longitude":74.2677346
+        },
+        "subscribed_passengrs":[
+          {
+            "id":1,
+            "passenger_id":1,
+            "passenger_info":{
+                "name":"Farrukh",
+                "gender":"Male",
+                "phone_number":"03070690117"
+            },
+            "rout_info":{
+              "pick_location": "Sandha,Bandh Road, Lahore",
+              "dropoff_location": "Clock Tower, Faislabad",
+              "fare_per_seat":500,
+              "number_of_seats_booked":2,
+              "driver_distance_in_km":4,
+              "driver_duration":"5 mins"
+            },
+            "pickup_latlng":{
+              "latitute":31.5924933,
+              "longitude":74.2677346
+              },
+                "dropoff_latlng":{
+                "latitute":31.5924933,
+                "longitude":74.2677346
+              }
+
+          }
+        ]
+        
     },
-      {
+    {
       "id":2,
       "driver_id":1,
-      "date_time":"Tuesday March 12 2020, 12:10 PM",
-      "cancelled_reason": "I changed my mind"
+      "date_time":"March 12,2030 at 4:20 PM",
+      "no_of_seats_posted":2,
+        "location_info":{
+        "pickup_city_name": "Lahore",
+        "dropoff_city_name": "Faisalbad",
+        "pickup_location": "G4 block, Johar Town, Lahore",
+        "dropoff_location": "Clock Tower, Faisalbad"
+        },
+        "pickup_latlng":{
+        "latitute":31.5924933,
+        "longitude":74.2677346
+        },
+          "dropoff_latlng":{
+          "latitute":31.5924933,
+          "longitude":74.2677346
+        },
+        "subscribed_passengrs":[]
     }
+ 
   ],
-   "started_ride": [
+  "cancelled_rides":[
+  {
+    "id":1,
+    "driver_id":1,
+    "date_time":"Tuesday March 12 2020, 12:10 PM",
+    "cancelled_reason": "None"
+  },
     {
-      "id": 1,
-      "driver_id": 1,
-      "date_time": "Tuesday March 12 2020, 12:10 PM"
-    }
-  ]
+    "id":2,
+    "driver_id":1,
+    "date_time":"Tuesday March 12 2020, 12:10 PM",
+    "cancelled_reason": "I changed my mind"
+  }
+],
+ "started_ride": [
+  {
+    "id": 1,
+    "driver_id": 1,
+    "date_time": "Tuesday March 12 2020, 12:10 PM"
+  }
+]
 }
