@@ -26,7 +26,8 @@
             "passenger_info":{
                 "name":"Farrukh",
                 "gender":"Male",
-                "phone_number":"03070690117"
+                "phone_number":"03070690117",
+              "image_url":"https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/10_avatar-512.png"
             },
             "rout_info":{
               "pick_location": "Sandha,Bandh Road, Lahore",
