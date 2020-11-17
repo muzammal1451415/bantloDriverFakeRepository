@@ -135,22 +135,7 @@
           "date_time":"Sunday,4 November 2020",
           "amount":800
         }
-      ],
-       "bank_transection":[
-    {
-        "id":1,
-        "passenger_id":1,
-        "reference_number":"422424245"
-        }
-   ],
-  "mobile_transection":[
-    {
-        "id":1,
-        "passenger_id":1,
-        "transection_id":"422424245"
-        }
-   ]
-
+      ]
     }
   ]
  
