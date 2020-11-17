@@ -146,22 +146,11 @@
         "id":1,
         "passenger_id":1,
         "reference_number":"422424245"
-        },
-           {
-        "id":1,
-        "passenger_id":2,
-        "reference_number":"422424245"
         }
-       
       ],
       "mobile_transection":[
           {
         "id":1,
-        "passenger_id":1,
-        "transection_id":"422424245"
-        },
-           {
-        "id":2,
         "passenger_id":1,
         "transection_id":"422424245"
         }
