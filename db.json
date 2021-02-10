@@ -1,144 +1,174 @@
 {
-  "active_posts":[
-    {
-      "id":1,
-      "driver_id":1,
-      "date_time":"March 12,2030 at 4:20 PM",
-      "no_of_seats_posted":2,
-        "location_info":{
-        "pickup_city_name": "Lahore",
-        "dropoff_city_name": "Faisalbad",
-        "pickup_location": "G4 block, Johar Town, Lahore",
-        "dropoff_location": "Clock Tower, Faisalbad"
-        },
-        "pickup_latlng":{
-        "latitute":31.5924933,
-        "longitude":74.2677346
-        },
-          "dropoff_latlng":{
+    "active_posts":[
+      {
+        "id":1,
+        "driver_id":1,
+        "date_time":"March 12,2030 at 4:20 PM",
+        "no_of_seats_posted":2,
+          "location_info":{
+          "pickup_city_name": "Lahore",
+          "dropoff_city_name": "Faisalbad",
+          "pickup_location": "G4 block, Johar Town, Lahore",
+          "dropoff_location": "Clock Tower, Faisalbad"
+          },
+          "pickup_latlng":{
           "latitute":31.5924933,
           "longitude":74.2677346
-        },
-        "subscribed_passengrs":[
-          {
-            "id":1,
-            "passenger_id":1,
-            "passenger_info":{
-                "name":"Farrukh",
-                "gender":"Male",
-                "phone_number":"03070690117",
-              "image_url":"https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/10_avatar-512.png",
-              "notification_token":""
-            },
-            "rout_info":{
-              "pick_location": "Sandha,Bandh Road, Lahore",
-              "dropoff_location": "Clock Tower, Faislabad",
-              "fare_per_seat":500,
-              "number_of_seats_booked":2,
-              "driver_distance_in_km":4,
-              "driver_duration":"5 mins"
-            },
-            "pickup_latlng":{
-              "latitute":31.5924933,
-              "longitude":74.2677346
+          },
+            "dropoff_latlng":{
+            "latitute":31.5924933,
+            "longitude":74.2677346
+          },
+          "subscribed_passengrs":[
+            {
+              "id":1,
+              "passenger_id":1,
+              "passenger_info":{
+                  "name":"Farrukh",
+                  "gender":"Male",
+                  "phone_number":"03070690117",
+                "image_url":"https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/10_avatar-512.png",
+                "notification_token":""
               },
-                "dropoff_latlng":{
+              "rout_info":{
+                "pick_location": "Sandha,Bandh Road, Lahore",
+                "dropoff_location": "Clock Tower, Faislabad",
+                "fare_per_seat":500,
+                "number_of_seats_booked":2,
+                "driver_distance_in_km":4,
+                "driver_duration":"5 mins"
+              },
+              "pickup_latlng":{
                 "latitute":31.5924933,
                 "longitude":74.2677346
-              }
-
-          }
-        ]
-        
-    },
-    {
-      "id":2,
-      "driver_id":1,
-      "date_time":"March 12,2030 at 4:20 PM",
-      "no_of_seats_posted":2,
-        "location_info":{
-        "pickup_city_name": "Lahore",
-        "dropoff_city_name": "Faisalbad",
-        "pickup_location": "G4 block, Johar Town, Lahore",
-        "dropoff_location": "Clock Tower, Faisalbad"
-        },
-        "pickup_latlng":{
-        "latitute":31.5924933,
-        "longitude":74.2677346
-        },
-          "dropoff_latlng":{
+                },
+                  "dropoff_latlng":{
+                  "latitute":31.5924933,
+                  "longitude":74.2677346
+                }
+  
+            }
+          ]
+          
+      },
+      {
+        "id":2,
+        "driver_id":1,
+        "date_time":"March 12,2030 at 4:20 PM",
+        "no_of_seats_posted":2,
+          "location_info":{
+          "pickup_city_name": "Lahore",
+          "dropoff_city_name": "Faisalbad",
+          "pickup_location": "G4 block, Johar Town, Lahore",
+          "dropoff_location": "Clock Tower, Faisalbad"
+          },
+          "pickup_latlng":{
           "latitute":31.5924933,
           "longitude":74.2677346
-        },
-        "subscribed_passengrs":[]
-    }
- 
-  ],
-  "cancelled_rides":[
-  {
-    "id":1,
-    "driver_id":1,
-    "date_time":"Tuesday March 12 2020, 12:10 PM",
-    "cancelled_reason": "None"
-  },
-    {
-    "id":2,
-    "driver_id":1,
-    "date_time":"Tuesday March 12 2020, 12:10 PM",
-    "cancelled_reason": "I changed my mind"
-  }
-],
- "started_ride": [
-  {
-    "id": 1,
-    "driver_id": 1,
-    "date_time": "Tuesday March 12 2020, 12:10 PM"
-  }
-],
-   "users":[
-    {
-      "id":1,
-      "phone_number":"03070690117",
-      "name":"Haider Ali",
-      "gender":"Male",
-      "address":"Shahkot, Punjab, Pakistan"
-    }
-  ],
-  "my_wallet":[
+          },
+            "dropoff_latlng":{
+            "latitute":31.5924933,
+            "longitude":74.2677346
+          },
+          "subscribed_passengrs":[]
+      }
+   
+    ],
+    "cancelled_rides":[
     {
       "id":1,
       "driver_id":1,
-      "total_earnings":2000,
-      "outstanding_balance": 350,
-      "payment_history":[
-        {
-          "id":1,
-          "date_time":"Tuesday,17 November 2020",
-          "amount":300
-        },
-        {
-          "id":2,
-          "date_time":"Friday,12 August 2020",
-          "amount":50
-        },
-        {
-          "id":3,
-          "date_time":"Monday,11 December 2020",
-          "amount":200
-        },
-        {
-          "id":4,
-          "date_time":"Wednesday,2 November 2020",
-          "amount":1000
-        },
-        {
-          "id":5,
-          "date_time":"Sunday,4 November 2020",
-          "amount":800
-        }
-      ]
+      "date_time":"Tuesday March 12 2020, 12:10 PM",
+      "cancelled_reason": "None"
+    },
+      {
+      "id":2,
+      "driver_id":1,
+      "date_time":"Tuesday March 12 2020, 12:10 PM",
+      "cancelled_reason": "I changed my mind"
     }
-  ]
- 
+  ],
+   "started_ride": [
+    {
+      "id": 1,
+      "driver_id": 1,
+      "date_time": "Tuesday March 12 2020, 12:10 PM"
+    }
+  ],
+     "users":[
+      {
+        "id":1,
+        "phone_number":"03070690117",
+        "name":"Haider Ali",
+        "gender":"Male",
+        "address":"Shahkot, Punjab, Pakistan"
+      }
+    ],
+    "my_wallet":[
+      {
+        "id":1,
+        "driver_id":1,
+        "total_earnings":2000,
+        "outstanding_balance": 350,
+        "payment_history":[
+          {
+            "id":1,
+            "date_time":"Tuesday,17 November 2020",
+            "amount":300
+          },
+          {
+            "id":2,
+            "date_time":"Friday,12 August 2020",
+            "amount":50
+          },
+          {
+            "id":3,
+            "date_time":"Monday,11 December 2020",
+            "amount":200
+          },
+          {
+            "id":4,
+            "date_time":"Wednesday,2 November 2020",
+            "amount":1000
+          },
+          {
+            "id":5,
+            "date_time":"Sunday,4 November 2020",
+            "amount":800
+          }
+        ]
+      }
+    ],
+    "qr_payment":[{
+        "id":1,
+        "driver_id":1,
+        "total_earnings":2000,
+        "withdrawable_amount": 350,
+        "withdrawal_history":[
+            {
+                "id":1,
+                "transaction_id":"324234242334",
+                "withdrawal_amount":20000,
+                "date_time":"Friday, August 20 2021, 12:10 PM"
+            },
+            {
+                "id":2,
+                "transaction_id":"324234242334",
+                "withdrawal_amount":5000,
+                "date_time":"Friday, August 20 2021, 12:10 PM"
+            },
+            {
+                "id":3,
+                "transaction_id":"324234242334",
+                "withdrawal_amount":10000,
+                "date_time":"Friday, August 20 2021, 12:10 PM"
+            }
+        ]
+
+    }
+       
+    ]
    
-}
+     
+  }
+  
